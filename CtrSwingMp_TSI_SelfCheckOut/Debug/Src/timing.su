@@ -1,0 +1,4 @@
+../Src/timing.c:28:6:Timing_IT	0	static
+../Src/timing.c:39:6:Timing_Set	0	static
+../Src/timing.c:44:10:Timing_Get	0	static
+../Src/timing.c:49:6:Timing_Get_Bool	0	static

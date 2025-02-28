@@ -1,0 +1,3 @@
+../Drv/protocolo_swing.c:12:16:Package_ChecksumCalc	8	static
+../Drv/protocolo_swing.c:25:9:Package_Dismount	16	static
+../Drv/protocolo_swing.c:60:9:Package_Mount	8	static

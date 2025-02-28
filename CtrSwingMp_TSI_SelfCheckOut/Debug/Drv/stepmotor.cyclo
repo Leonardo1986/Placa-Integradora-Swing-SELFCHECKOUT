@@ -1,0 +1,16 @@
+../Drv/stepmotor.c:224:13:_stpmt_TASK	1
+../Drv/stepmotor.c:93:6:_stpmt_func_motor_stop	1
+../Drv/stepmotor.c:98:6:_stpmt_func_motor_start	1
+../Drv/stepmotor.c:104:6:_stpmt_func_motor_set	1
+../Drv/stepmotor.c:109:6:_stpmt_func_motor_move	4
+../Drv/stepmotor.c:168:13:_stpmt_task_ctrl	9
+../Drv/stepmotor.c:231:6:StepMotor_IT	11
+../Drv/stepmotor.c:317:6:StepMotor_Init	1
+../Drv/stepmotor.c:343:11:StepMotor_GetSts	1
+../Drv/stepmotor.c:348:6:Clear_ActionRequest	1
+../Drv/stepmotor.c:353:6:StepMotor_GO	2
+../Drv/stepmotor.c:366:6:StepMotor_STOP	1
+../Drv/stepmotor.c:375:6:StepMotor_POWER	2
+../Drv/stepmotor.c:387:10:StepMotor_GetStepEnc	1
+../Drv/stepmotor.c:394:10:StepMotor_GetStepPos	1
+../Drv/stepmotor.c:401:11:StepMotor_GetDir	1

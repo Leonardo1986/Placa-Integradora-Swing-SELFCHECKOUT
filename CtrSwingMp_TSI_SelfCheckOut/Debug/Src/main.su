@@ -1,0 +1,4 @@
+../Src/main.c:90:6:SystemClock_Config_OLD	72	static
+../Src/main.c:119:6:SystemClock_Config	72	static
+../Src/main.c:55:5:main	8	static
+../Src/main.c:157:6:Error_Handler	0	static

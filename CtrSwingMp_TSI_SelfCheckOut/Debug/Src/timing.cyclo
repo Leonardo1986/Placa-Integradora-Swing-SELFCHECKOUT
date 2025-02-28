@@ -1,0 +1,4 @@
+../Src/timing.c:28:6:Timing_IT	3
+../Src/timing.c:39:6:Timing_Set	1
+../Src/timing.c:44:10:Timing_Get	1
+../Src/timing.c:49:6:Timing_Get_Bool	2
