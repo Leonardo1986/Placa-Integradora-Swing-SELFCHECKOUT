@@ -4489,7 +4489,7 @@ Discarded input sections
  .debug_macro   0x00000000      0xa8a ./Src/version.o
  .debug_macro   0x00000000       0x3a ./Src/version.o
  .debug_line    0x00000000       0x45 ./Src/version.o
- .debug_str     0x00000000     0x2e43 ./Src/version.o
+ .debug_str     0x00000000     0x2e6a ./Src/version.o
  .comment       0x00000000       0x44 ./Src/version.o
  .ARM.attributes
                 0x00000000       0x2c ./Src/version.o

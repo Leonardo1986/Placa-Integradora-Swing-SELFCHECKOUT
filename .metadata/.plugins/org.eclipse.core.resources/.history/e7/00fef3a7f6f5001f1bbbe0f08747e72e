@@ -1,11 +1,10 @@
 #ifndef VERSION_H_
 #define VERSION_H_
 
-// Selfcheckout é um projeto separado
 #define SELFCHECKOUT 1
-//#define EVO		 2
-//#define SLIM       3
-//#define CLASSIC    4
+#define EVO		 2
+#define SLIM       3
+#define CLASSIC    4
 
 #define FIRMWARE_VERSION_MAJOR SELFCHECKOUT
 #define FIRMWARE_VERSION_MINOR 1
