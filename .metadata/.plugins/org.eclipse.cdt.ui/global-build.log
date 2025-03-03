@@ -19,3 +19,317 @@ arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf
   43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
 Finished building: default.size.stdout
  
+09:33:24 **** Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+Finished building: default.size.stdout
+ 
+09:36:07 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+Finished building: default.size.stdout
+ 
+09:38:44 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/version.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Drv -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/version.d" -MT"Src/version.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/version.o"
+In file included from ../Src/version.c:1:
+../Drv/version.h:23:9: note: '#pragma message: Versão do Firmware: 1.1.10'
+   23 | #pragma message(WARNING_MESSAGE)
+      |         ^~~~~~~
+arm-none-eabi-gcc -o "CtrSwingMp_TSI_SelfCheckOut.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-SELFCHECKOUT\CtrSwingMp_TSI_SelfCheckOut\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI_SelfCheckOut.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: CtrSwingMp_TSI_SelfCheckOut.elf has a LOAD segment with RWX permissions
+Finished building target: CtrSwingMp_TSI_SelfCheckOut.elf
+ 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+arm-none-eabi-objdump -h -S CtrSwingMp_TSI_SelfCheckOut.elf  > "CtrSwingMp_TSI_SelfCheckOut.list"
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+arm-none-eabi-objcopy  -O ihex CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.bin"
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.hex
+Finished building: CtrSwingMp_TSI_SelfCheckOut.bin
+ 
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.list
+ 
+09:41:04 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+Finished building: default.size.stdout
+ 
+09:54:01 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/version.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Drv -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/version.d" -MT"Src/version.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/version.o"
+In file included from ../Src/version.c:1:
+../Drv/version.h:29:9: note: '#pragma message: Versão do Firmware: 1.1.10'
+   29 | #pragma message(WARNING_MESSAGE)
+      |         ^~~~~~~
+arm-none-eabi-gcc -o "CtrSwingMp_TSI_SelfCheckOut.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-SELFCHECKOUT\CtrSwingMp_TSI_SelfCheckOut\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI_SelfCheckOut.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: CtrSwingMp_TSI_SelfCheckOut.elf has a LOAD segment with RWX permissions
+Finished building target: CtrSwingMp_TSI_SelfCheckOut.elf
+ 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+arm-none-eabi-objdump -h -S CtrSwingMp_TSI_SelfCheckOut.elf  > "CtrSwingMp_TSI_SelfCheckOut.list"
+arm-none-eabi-objcopy  -O ihex CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.hex"
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+arm-none-eabi-objcopy  -O binary CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.bin"
+Finished building: default.size.stdout
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.hex
+Finished building: CtrSwingMp_TSI_SelfCheckOut.bin
+ 
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.list
+ 
+09:54:54 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+Finished building: default.size.stdout
+ 
+09:55:18 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/version.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Drv -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/version.d" -MT"Src/version.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/version.o"
+In file included from ../Src/version.c:1:
+../Drv/version.h:29:9: note: '#pragma message: Versão do Firmware: 1.1.10'
+   29 | #pragma message(WARNING_MESSAGE)
+      |         ^~~~~~~
+arm-none-eabi-gcc -o "CtrSwingMp_TSI_SelfCheckOut.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-SELFCHECKOUT\CtrSwingMp_TSI_SelfCheckOut\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI_SelfCheckOut.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: CtrSwingMp_TSI_SelfCheckOut.elf has a LOAD segment with RWX permissions
+Finished building target: CtrSwingMp_TSI_SelfCheckOut.elf
+ 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+arm-none-eabi-objdump -h -S CtrSwingMp_TSI_SelfCheckOut.elf  > "CtrSwingMp_TSI_SelfCheckOut.list"
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+arm-none-eabi-objcopy  -O ihex CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.bin"
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.hex
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.bin
+Finished building: CtrSwingMp_TSI_SelfCheckOut.list
+ 
+ 
+09:55:54 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/version.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Drv -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/version.d" -MT"Src/version.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/version.o"
+In file included from ../Src/version.c:1:
+../Drv/version.h:31:9: note: '#pragma message: Versão do Firmware: 1.1.10'
+   31 | #pragma message(WARNING_MESSAGE)
+      |         ^~~~~~~
+arm-none-eabi-gcc -o "CtrSwingMp_TSI_SelfCheckOut.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-SELFCHECKOUT\CtrSwingMp_TSI_SelfCheckOut\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI_SelfCheckOut.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: CtrSwingMp_TSI_SelfCheckOut.elf has a LOAD segment with RWX permissions
+Finished building target: CtrSwingMp_TSI_SelfCheckOut.elf
+ 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+arm-none-eabi-objdump -h -S CtrSwingMp_TSI_SelfCheckOut.elf  > "CtrSwingMp_TSI_SelfCheckOut.list"
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+arm-none-eabi-objcopy  -O ihex CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.hex"
+arm-none-eabi-objcopy  -O binary CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.bin"
+Finished building: default.size.stdout
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.hex
+Finished building: CtrSwingMp_TSI_SelfCheckOut.bin
+ 
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.list
+ 
+09:58:01 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/version.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Drv -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/version.d" -MT"Src/version.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/version.o"
+In file included from ../Src/version.c:1:
+../Drv/version.h:31:9: note: '#pragma message: Versão do Firmware: 1.1.10'
+   31 | #pragma message(WARNING_MESSAGE)
+      |         ^~~~~~~
+arm-none-eabi-gcc -o "CtrSwingMp_TSI_SelfCheckOut.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-SELFCHECKOUT\CtrSwingMp_TSI_SelfCheckOut\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI_SelfCheckOut.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: CtrSwingMp_TSI_SelfCheckOut.elf has a LOAD segment with RWX permissions
+Finished building target: CtrSwingMp_TSI_SelfCheckOut.elf
+ 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+arm-none-eabi-objdump -h -S CtrSwingMp_TSI_SelfCheckOut.elf  > "CtrSwingMp_TSI_SelfCheckOut.list"
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+arm-none-eabi-objcopy  -O ihex CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.bin"
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.hex
+Finished building: CtrSwingMp_TSI_SelfCheckOut.bin
+ 
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.list
+ 
+10:27:34 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/version.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Drv -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/version.d" -MT"Src/version.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/version.o"
+In file included from ../Src/version.c:1:
+../Drv/version.h:18:10: warning: #warning "Modo de funcionamento PADRÃO" [-Wcpp]
+   18 |         #warning "Modo de funcionamento PADRÃO"
+      |          ^~~~~~~
+../Drv/version.h:34:9: note: '#pragma message: Versão do Firmware: 1.1.10'
+   34 | #pragma message(WARNING_MESSAGE)
+      |         ^~~~~~~
+arm-none-eabi-gcc -o "CtrSwingMp_TSI_SelfCheckOut.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-SELFCHECKOUT\CtrSwingMp_TSI_SelfCheckOut\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI_SelfCheckOut.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: CtrSwingMp_TSI_SelfCheckOut.elf has a LOAD segment with RWX permissions
+Finished building target: CtrSwingMp_TSI_SelfCheckOut.elf
+ 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+arm-none-eabi-objdump -h -S CtrSwingMp_TSI_SelfCheckOut.elf  > "CtrSwingMp_TSI_SelfCheckOut.list"
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+arm-none-eabi-objcopy  -O ihex CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.bin"
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.hex
+Finished building: CtrSwingMp_TSI_SelfCheckOut.bin
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.list
+ 
+ 
+10:30:33 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/version.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Drv -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/version.d" -MT"Src/version.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/version.o"
+In file included from ../Src/version.c:1:
+../Drv/version.h:18:10: warning: #warning "Modo de funcionamento PADRÃO" [-Wcpp]
+   18 |         #warning "Modo de funcionamento PADRÃO"
+      |          ^~~~~~~
+../Drv/version.h:34:9: note: '#pragma message: Versão do Firmware: 1.1.10'
+   34 | #pragma message(WARNING_MESSAGE)
+      |         ^~~~~~~
+arm-none-eabi-gcc -o "CtrSwingMp_TSI_SelfCheckOut.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-SELFCHECKOUT\CtrSwingMp_TSI_SelfCheckOut\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI_SelfCheckOut.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: CtrSwingMp_TSI_SelfCheckOut.elf has a LOAD segment with RWX permissions
+Finished building target: CtrSwingMp_TSI_SelfCheckOut.elf
+ 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+arm-none-eabi-objdump -h -S CtrSwingMp_TSI_SelfCheckOut.elf  > "CtrSwingMp_TSI_SelfCheckOut.list"
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+arm-none-eabi-objcopy  -O ihex CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.bin"
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.hex
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.bin
+Finished building: CtrSwingMp_TSI_SelfCheckOut.list
+ 
+ 
+10:33:54 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+Finished building: default.size.stdout
+ 
+14:08:23 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+Finished building: default.size.stdout
+ 
+14:08:36 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/version.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Drv -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/version.d" -MT"Src/version.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/version.o"
+In file included from ../Src/version.c:1:
+../Drv/version.h:15:10: warning: #warning "Modo de funcionamento com tempos reduzidos TENDA" [-Wcpp]
+   15 |         #warning "Modo de funcionamento com tempos reduzidos TENDA"
+      |          ^~~~~~~
+../Drv/version.h:34:9: note: '#pragma message: Versão do Firmware: 1.0.10'
+   34 | #pragma message(WARNING_MESSAGE)
+      |         ^~~~~~~
+arm-none-eabi-gcc -o "CtrSwingMp_TSI_SelfCheckOut.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-SELFCHECKOUT\CtrSwingMp_TSI_SelfCheckOut\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI_SelfCheckOut.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: CtrSwingMp_TSI_SelfCheckOut.elf has a LOAD segment with RWX permissions
+Finished building target: CtrSwingMp_TSI_SelfCheckOut.elf
+ 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+arm-none-eabi-objdump -h -S CtrSwingMp_TSI_SelfCheckOut.elf  > "CtrSwingMp_TSI_SelfCheckOut.list"
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+arm-none-eabi-objcopy  -O ihex CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.hex"
+arm-none-eabi-objcopy  -O binary CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.bin"
+Finished building: default.size.stdout
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.hex
+Finished building: CtrSwingMp_TSI_SelfCheckOut.bin
+ 
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.list
+ 
+14:09:35 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/version.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Drv -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/version.d" -MT"Src/version.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/version.o"
+In file included from ../Src/version.c:1:
+../Drv/version.h:18:10: warning: #warning "Modo de funcionamento PADRÃO" [-Wcpp]
+   18 |         #warning "Modo de funcionamento PADRÃO"
+      |          ^~~~~~~
+../Drv/version.h:34:9: note: '#pragma message: Versão do Firmware: 1.1.10'
+   34 | #pragma message(WARNING_MESSAGE)
+      |         ^~~~~~~
+arm-none-eabi-gcc -o "CtrSwingMp_TSI_SelfCheckOut.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-SELFCHECKOUT\CtrSwingMp_TSI_SelfCheckOut\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI_SelfCheckOut.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: CtrSwingMp_TSI_SelfCheckOut.elf has a LOAD segment with RWX permissions
+Finished building target: CtrSwingMp_TSI_SelfCheckOut.elf
+ 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+arm-none-eabi-objdump -h -S CtrSwingMp_TSI_SelfCheckOut.elf  > "CtrSwingMp_TSI_SelfCheckOut.list"
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+arm-none-eabi-objcopy  -O ihex CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.bin"
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.hex
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.bin
+Finished building: CtrSwingMp_TSI_SelfCheckOut.list
+ 
+ 
+14:09:55 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/version.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I../Drv -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/version.d" -MT"Src/version.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/version.o"
+In file included from ../Src/version.c:1:
+../Drv/version.h:18:10: warning: #warning "Modo de funcionamento PADRÃO" [-Wcpp]
+   18 |         #warning "Modo de funcionamento PADRÃO"
+      |          ^~~~~~~
+../Drv/version.h:34:9: note: '#pragma message: Versão do Firmware: 1.1.10'
+   34 | #pragma message(WARNING_MESSAGE)
+      |         ^~~~~~~
+arm-none-eabi-gcc -o "CtrSwingMp_TSI_SelfCheckOut.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\WorkSpaceGitHub\Placa-Integradora-Swing-SELFCHECKOUT\CtrSwingMp_TSI_SelfCheckOut\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CtrSwingMp_TSI_SelfCheckOut.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.15.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: CtrSwingMp_TSI_SelfCheckOut.elf has a LOAD segment with RWX permissions
+Finished building target: CtrSwingMp_TSI_SelfCheckOut.elf
+ 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+arm-none-eabi-objdump -h -S CtrSwingMp_TSI_SelfCheckOut.elf  > "CtrSwingMp_TSI_SelfCheckOut.list"
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+arm-none-eabi-objcopy  -O ihex CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary CtrSwingMp_TSI_SelfCheckOut.elf  "CtrSwingMp_TSI_SelfCheckOut.bin"
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.hex
+ 
+Finished building: CtrSwingMp_TSI_SelfCheckOut.bin
+Finished building: CtrSwingMp_TSI_SelfCheckOut.list
+ 
+ 
+14:10:01 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+make -j8 all 
+arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
+   text	   data	    bss	    dec	    hex	filename
+  43528	     24	   4304	  47856	   baf0	CtrSwingMp_TSI_SelfCheckOut.elf
+Finished building: default.size.stdout
+ 

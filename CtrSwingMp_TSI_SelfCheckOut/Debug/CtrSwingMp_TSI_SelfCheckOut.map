@@ -4478,18 +4478,100 @@ Discarded input sections
  .debug_macro   0x00000000       0x20 ./Src/usart.o
  .group         0x00000000        0xc ./Src/version.o
  .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
+ .group         0x00000000        0xc ./Src/version.o
  .text          0x00000000        0x0 ./Src/version.o
  .data          0x00000000        0x0 ./Src/version.o
  .bss           0x00000000        0x0 ./Src/version.o
- .debug_info    0x00000000       0x22 ./Src/version.o
- .debug_abbrev  0x00000000       0x12 ./Src/version.o
+ .debug_info    0x00000000       0x70 ./Src/version.o
+ .debug_abbrev  0x00000000       0x28 ./Src/version.o
  .debug_aranges
                 0x00000000       0x18 ./Src/version.o
- .debug_macro   0x00000000       0x1a ./Src/version.o
+ .debug_macro   0x00000000      0x1f4 ./Src/version.o
  .debug_macro   0x00000000      0xa8a ./Src/version.o
+ .debug_macro   0x00000000      0x139 ./Src/version.o
+ .debug_macro   0x00000000       0x2e ./Src/version.o
+ .debug_macro   0x00000000       0x22 ./Src/version.o
+ .debug_macro   0x00000000       0x22 ./Src/version.o
+ .debug_macro   0x00000000       0x8e ./Src/version.o
+ .debug_macro   0x00000000       0x51 ./Src/version.o
+ .debug_macro   0x00000000      0x103 ./Src/version.o
+ .debug_macro   0x00000000       0x6a ./Src/version.o
+ .debug_macro   0x00000000      0x1df ./Src/version.o
+ .debug_macro   0x00000000       0x1c ./Src/version.o
+ .debug_macro   0x00000000       0x22 ./Src/version.o
+ .debug_macro   0x00000000       0xaf ./Src/version.o
+ .debug_macro   0x00000000      0x391 ./Src/version.o
+ .debug_macro   0x00000000     0x6f40 ./Src/version.o
+ .debug_macro   0x00000000       0x66 ./Src/version.o
+ .debug_macro   0x00000000     0x34a6 ./Src/version.o
+ .debug_macro   0x00000000      0x189 ./Src/version.o
+ .debug_macro   0x00000000       0x55 ./Src/version.o
+ .debug_macro   0x00000000      0x924 ./Src/version.o
+ .debug_macro   0x00000000      0x17f ./Src/version.o
+ .debug_macro   0x00000000      0x1af ./Src/version.o
+ .debug_macro   0x00000000       0xd9 ./Src/version.o
+ .debug_macro   0x00000000      0x1a0 ./Src/version.o
+ .debug_macro   0x00000000      0x1ed ./Src/version.o
+ .debug_macro   0x00000000       0x34 ./Src/version.o
+ .debug_macro   0x00000000       0x43 ./Src/version.o
+ .debug_macro   0x00000000       0x28 ./Src/version.o
+ .debug_macro   0x00000000       0xb0 ./Src/version.o
+ .debug_macro   0x00000000      0x199 ./Src/version.o
+ .debug_macro   0x00000000      0x22c ./Src/version.o
+ .debug_macro   0x00000000       0x61 ./Src/version.o
+ .debug_macro   0x00000000       0xa5 ./Src/version.o
+ .debug_macro   0x00000000       0x4c ./Src/version.o
+ .debug_macro   0x00000000       0x2b ./Src/version.o
+ .debug_macro   0x00000000      0x8d8 ./Src/version.o
+ .debug_macro   0x00000000       0x28 ./Src/version.o
+ .debug_macro   0x00000000      0x55f ./Src/version.o
+ .debug_macro   0x00000000       0x3e ./Src/version.o
+ .debug_macro   0x00000000       0x8d ./Src/version.o
+ .debug_macro   0x00000000       0xff ./Src/version.o
+ .debug_macro   0x00000000      0x1ea ./Src/version.o
  .debug_macro   0x00000000       0x3a ./Src/version.o
- .debug_line    0x00000000       0x45 ./Src/version.o
- .debug_str     0x00000000     0x2e6a ./Src/version.o
+ .debug_line    0x00000000      0x779 ./Src/version.o
+ .debug_str     0x00000000    0x5f213 ./Src/version.o
  .comment       0x00000000       0x44 ./Src/version.o
  .ARM.attributes
                 0x00000000       0x2c ./Src/version.o

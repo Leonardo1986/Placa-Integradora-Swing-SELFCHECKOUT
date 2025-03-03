@@ -1,4 +1,4 @@
-14:13:42 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
+14:10:01 **** Incremental Build of configuration Debug for project CtrSwingMp_TSI_SelfCheckOut ****
 make -j8 all 
 arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  CtrSwingMp_TSI_SelfCheckOut.elf
 Finished building: default.size.stdout
  
 
-14:13:43 Build Finished. 0 errors, 0 warnings. (took 313ms)
+14:10:01 Build Finished. 0 errors, 0 warnings. (took 326ms)
 
